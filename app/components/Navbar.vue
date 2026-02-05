@@ -8,24 +8,14 @@ const router = useRouter()
 
 const items = ref<NavigationMenuItem[]>([
   {
-    label: 'Guide',
-    icon: 'i-heroicons-book-open',
-    to: '/docs/getting-started'
-  },
-  {
-    label: 'Composables',
-    icon: 'i-heroicons-circle-stack',
-    to: '/docs/composables'
-  },
-  {
-    label: 'Components',
-    icon: 'i-heroicons-cube',
-    to: '/docs/components'
+    label: 'Create Task',
+    icon: 'i-heroicons-plus-circle',
+    to: '/user/create_task'
   },
   {
     label: 'GitHub',
     icon: 'i-simple-icons-github',
-    to: 'https://github.com/nuxt/ui',
+    to: 'https://github.com/omarnadif/supabase_project_omar.git',
     target: '_blank'
   }
 ])
