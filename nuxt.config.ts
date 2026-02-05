@@ -4,6 +4,12 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxt/ui'
   ],
+  runtimeConfig: {
+    public: {
+      supabaseUrl: '',
+      supabaseAnonKey: ''
+    }
+  },
 
   devtools: {
     enabled: true
